@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(212, 249, 236);
+    background: radial-gradient(circle, rgba(245,236,202,1) 19%, rgba(223,247,211,0.65172006302521) 100%);
 }
 
 hr {
@@ -29,8 +29,10 @@ section,
 footer {
     width: 800px;
     border: 1px solid coral;
+    border-radius: 15px 0 15px 0;
     padding: 10px;
     margin: 5px auto;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,255,255,1) 20%, rgba(252,176,69,1) 100%);
 }
 
 footer {
